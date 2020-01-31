@@ -51,8 +51,8 @@ def main():
     args=get_args()
     fasta_file=args.finput
     phanotate_file=args.pinput
-    gene_file=args.protein
-    protein_file=args.gene
+    protein_file=args.protein
+    gene_file=args.gene
 
     record_dict = SeqIO.to_dict(SeqIO.parse(fasta_file, "fasta"))
 
